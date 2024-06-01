@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "noEmit": false,
+    "jsx": "react",
+    "sourceMap": true,
+  },
+  "include": [
+    "src/server.ts",
+    "src/payload/payload.config.ts",
+  ]
+}
